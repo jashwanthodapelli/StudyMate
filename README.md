@@ -1,12 +1,20 @@
 # StudyMate
 StudyMate AI is a Generative AI learning assistant that transforms notes and questions into simplified explanations, summaries, quizzes, flashcards, and code walkthroughs. With adaptive learning modes, it personalizes content for Beginner, Intermediate, or Advanced learners, making study smarter and interactive.
+
 ## Project Description
 StudyMate AI is a Generative AI–powered learning assistant that helps students understand complex topics by generating simplified explanations, summaries, quizzes, and flashcards.
+
+## Solution
+StudyMate AI analyzes study material using Generative AI and
+automatically generates: - Simplified explanations - Smart summaries -
+Practice quizzes - Revision flashcards
+
 ## Tech Stack
 Frontend: HTML, CSS, JavaScript  
 Backend: Python, Flask  
 AI: OpenAI / Gemini API  
 Database: SQLite
+
 ## Features
 - AI Concept Explainer
 - Smart Notes Summarizer
@@ -14,3 +22,25 @@ Database: SQLite
 - Flashcard Creator
 - Personalized Learning Mode
 - Code Explanation Tool
+  
+## System Architecture
+User Input
+↓
+Web Interface
+↓
+Flask Backend
+↓
+Generative AI API
+↓
+Generated Learning Content
+
+## Future Improvements
+-   Mobile application
+-   Voice-based AI tutor
+-   Learning progress tracking
+-   Multi-language support
+-   
+## Impact
+StudyMate AI helps students: - Learn faster - Understand concepts
+better - Prepare effectively for exams - Access instant AI tutoring
+
