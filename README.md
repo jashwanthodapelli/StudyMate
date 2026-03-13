@@ -39,7 +39,7 @@ Generated Learning Content
 -   Voice-based AI tutor
 -   Learning progress tracking
 -   Multi-language support
--   
+   
 ## Impact
 StudyMate AI helps students: - Learn faster - Understand concepts
 better - Prepare effectively for exams - Access instant AI tutoring
