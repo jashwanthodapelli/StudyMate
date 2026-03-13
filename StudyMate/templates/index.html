@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StudyMate AI</title>
+  <link rel="stylesheet" href="C:\Users\jashw\OneDrive\Desktop\FSD\StudyMate\static\css\styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>StudyMate AI</h1>
+      <p>AI that helps students learn faster and smarter.</p>
+    </header>
+
+    <section class="input-section">
+      <textarea id="inputText" placeholder="Paste your notes, textbook paragraph, question, or code here..."></textarea>
+
+      <div class="controls">
+        <div>
+          <label>Learning Level</label>
+          <select id="level">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Mode</label>
+          <select id="mode">
+            <option value="text">Concept / Notes</option>
+            <option value="code">Code</option>
+          </select>
+        </div>
+
+        <button id="generateBtn">One-Click Study Mode</button>
+      </div>
+    </section>
+
+    <section id="results" class="results hidden">
+      <div class="tabs">
+        <button data-tab="explanation" class="active">Explanation</button>
+        <button data-tab="summary">Summary</button>
+        <button data-tab="quiz">Quiz</button>
+        <button data-tab="flashcards">Flashcards</button>
+      </div>
+
+      <div class="tab-content">
+        <pre id="explanationTab"></pre>
+        <pre id="summaryTab" class="hidden"></pre>
+        <pre id="quizTab" class="hidden"></pre>
+        <pre id="flashcardsTab" class="hidden"></pre>
+      </div>
+    </section>
+  </div>
+
+  <script src="C:\Users\jashw\OneDrive\Desktop\FSD\StudyMate\static\js\main.js"></script>
+</body>
+</html>
