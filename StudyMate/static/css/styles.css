@@ -1,0 +1,169 @@
+/* General body */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background: #f4f6f9;
+    color: #111;
+    transition: all 0.3s ease;
+}
+
+/* Dark mode */
+body.dark {
+    background: #121212;
+    color: #f4f4f9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background: #6b5bfc;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background: #7c6eff;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s;
+    text-align: left;
+    font-size: 16px;
+}
+
+.sidebar button:hover {
+    background: #5a4ddb;
+}
+
+/* Main content */
+.main {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+/* Section cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Dark mode cards */
+body.dark .card {
+    background: #1e1e1e;
+    color: #f4f4f9;
+}
+
+/* Textareas and inputs */
+textarea, select, input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+body.dark textarea, 
+body.dark select, 
+body.dark input {
+    background: #2c2c2c;
+    color: #f4f4f9;
+    border: 1px solid #555;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+body.dark button {
+    background: #6b5bfc;
+}
+
+body.dark button:hover {
+    background: #5a4ddb;
+}
+
+/* Result boxes */
+pre {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+body.dark pre {
+    background: #2c2c2c;
+    color: #f4f4f9;
+}
+
+/* Loading text */
+#loading {
+    display: none;
+    color: #e53e3e;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Hidden sections */
+.hidden {
+    display: none;
+}
+
+/* Responsive grid */
+@media (max-width: 1024px) {
+    .main .grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .sidebar {
+        width: 60px;
+    }
+
+    .sidebar h1 {
+        display: none;
+    }
+
+    .sidebar button {
+        text-align: center;
+        font-size: 18px;
+    }
+}
