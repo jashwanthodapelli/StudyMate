@@ -1,5 +1,4 @@
-## 🚀 StudyMate AI
-## 🧠 Smart AI Learning Assistant
+## 🚀 StudyMate AI -🧠 Smart AI Learning Assistant
 StudyMate AI is a Generative AI-powered learning assistant that helps students transform notes and questions into simplified explanations, summaries, quizzes, and flashcards for smarter and more interactive learning, it personalizes content for Beginner, Intermediate, or Advanced learners, making study smarter and interactive.
 
 ## Project Description
